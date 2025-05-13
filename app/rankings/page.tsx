@@ -112,9 +112,7 @@ export default function RankingsPage() {
           <h2 className="text-xl font-semibold mb-4">순위 산정 방식</h2>
           <ul className="list-disc pl-5 space-y-2 text-gray-700">
             <li>각 종목별 순위에 따라 점수가 부여됩니다.</li>
-            <li>1위: 10점, 2위: 8점, 3위: 6점, 4위: 4점, 5위: 2점, 6위 이하: 1점</li>
-            <li>모든 종목(축구, 핸드볼, 줄넘기)의 점수를 합산하여 종합 순위가 결정됩니다.</li>
-            <li>동점인 경우, 더 높은 순위를 많이 획득한 반이 상위 순위를 차지합니다.</li>
+            <li>모든 종목(축구, 핸드볼, 줄넘기, 미니게임, 계주)의 점수를 합산하여 종합 순위가 결정됩니다.</li>
           </ul>
         </div>
       </main>

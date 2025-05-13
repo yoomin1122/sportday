@@ -14,7 +14,7 @@ export default function Navbar() {
           {/* 왼쪽 타이틀 */}
           <div className="flex-shrink-0">
             <Link href="/" className="text-xl font-bold">
-              브랜드 타이틀
+              송악고 체육대회
             </Link>
           </div>
 

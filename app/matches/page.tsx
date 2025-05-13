@@ -261,36 +261,17 @@ export default function MatchesPage() {
             ))}
           </div>
         </div>
-
-        <div className="mt-8 grid grid-cols-1 md:grid-cols-2 gap-6">
-          <div className="bg-white rounded-lg shadow-md p-4">
-            <h2 className="text-xl font-semibold mb-4">대진표 규칙</h2>
-            <ul className="list-disc pl-5 space-y-2 text-gray-700">
-              <li>모든 경기는 단판 승부로 진행됩니다.</li>
-              <li>동점인 경우 연장전을 진행합니다.</li>
-              <li>각 종목별 우승자는 학년 종합 순위에 반영됩니다.</li>
-              <li>모든 학년은 축구, 핸드볼, 줄넘기 종목에 참가합니다.</li>
-              <li>1학년은 총 8개 반, 2학년과 3학년은 총 6개 반이 참가합니다.</li>
-            </ul>
-          </div>
-
-          <div className="bg-white rounded-lg shadow-md p-4">
-            <h2 className="text-xl font-semibold mb-4">종목별 일정</h2>
-            <div className="space-y-3">
-              <div className="flex justify-between items-center">
-                <span className="font-medium">축구</span>
-                <span className="text-gray-700">오전 9:00 ~ 10:30</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">핸드볼</span>
-                <span className="text-gray-700">오전 10:30 ~ 12:00</span>
-              </div>
-              <div className="flex justify-between items-center">
-                <span className="font-medium">줄넘기</span>
-                <span className="text-gray-700">오후 13:00 ~ 14:30</span>
-              </div>
-            </div>
-          </div>
+        <div className="mt-8 grid grid-cols-1  gap-6">
+        <div className="bg-white rounded-lg shadow-md p-4">
+          <h2 className="text-xl font-semibold mb-4">대진표 규칙</h2>
+          <ul className="list-disc pl-5 space-y-2 text-gray-700">
+              <li>모든 경기는 단판 승부로 진행됩니다. </li>
+              <li>각 종목별 우승자는 학년 종합 순위에 반영됩니다. </li>
+              <li>모든 학년은 축구, 핸드볼, 줄넘기, 미니게임, 계주 종목에 참가합니다. </li>
+              <li>미니게임, 계주 종목은 대진표가 따로 없으며, 순위에 따라 학년 종합 순위에 반영됩니다. </li>
+              <li>1학년은 총 8개 반, 2학년과 3학년은 총 6개 반이 참가합니다. </li>
+          </ul>
+        </div>
         </div>
       </main>
     </>
