@@ -34,6 +34,11 @@ export default function Navbar() {
           <div className="hidden md:block ml-auto">
             <ul className="flex space-x-8">
               <li>
+                <Link href="/" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md">
+                  홈
+                </Link>
+              </li>
+              <li>
                 <Link href="/schedule" className="text-gray-700 hover:text-gray-900 px-3 py-2 rounded-md">
                   일정표
                 </Link>
