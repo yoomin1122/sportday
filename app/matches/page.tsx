@@ -16,22 +16,22 @@ export default function MatchesPage() {
     {
       name: "8강",
       matches: [
-        { id: 1, teamA: "1학년 1반", teamB: "1학년 5반", scoreA: 3, scoreB: 1 },
-        { id: 2, teamA: "1학년 2반", teamB: "1학년 6반", scoreA: 2, scoreB: 2 },
-        { id: 3, teamA: "1학년 3반", teamB: "1학년 7반", scoreA: 0, scoreB: 4 },
-        { id: 4, teamA: "1학년 4반", teamB: "1학년 8반", scoreA: 1, scoreB: 0 },
+        { id: 1, teamA: "1학년 3반", teamB: "1학년 5반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "1학년 2반", teamB: "1학년 7반", scoreA: "Lose", scoreB: "Win" },
+        { id: 3, teamA: "1학년 6반", teamB: "1학년 8반", scoreA: "Win", scoreB: "Lose" },
+        { id: 4, teamA: "1학년 1반", teamB: "1학년 4반", scoreA: "win", scoreB: "Lose" },
       ],
     },
     {
       name: "4강",
       matches: [
-        { id: 5, teamA: "1학년 1반", teamB: "1학년 2반", scoreA: null, scoreB: null },
-        { id: 6, teamA: "1학년 7반", teamB: "1학년 4반", scoreA: null, scoreB: null },
+        { id: 5, teamA: "1학년 3반", teamB: "1학년 7반", scoreA: "Win", scoreB: "Lose" },
+        { id: 6, teamA: "1학년 6반", teamB: "1학년 1반", scoreA: "Lose", scoreB: "Win" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 7, teamA: "TBD", teamB: "TBD", scoreA: null, scoreB: null }],
+      matches: [{ id: 7, teamA: "1학년 7반", teamB: "1학년 1반", scoreA: null, scoreB: null }],
     },
   ]
 
@@ -40,22 +40,22 @@ export default function MatchesPage() {
     {
       name: "8강",
       matches: [
-        { id: 1, teamA: "1학년 1반", teamB: "1학년 5반", scoreA: 2, scoreB: 3 },
-        { id: 2, teamA: "1학년 2반", teamB: "1학년 6반", scoreA: 4, scoreB: 1 },
-        { id: 3, teamA: "1학년 3반", teamB: "1학년 7반", scoreA: 2, scoreB: 2 },
-        { id: 4, teamA: "1학년 4반", teamB: "1학년 8반", scoreA: 3, scoreB: 0 },
+        { id: 1, teamA: "1학년 7반", teamB: "1학년 3반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "1학년 5반", teamB: "1학년 1반", scoreA: "Win", scoreB: "Lose" },
+        { id: 3, teamA: "1학년 4반", teamB: "1학년 8반", scoreA: "Win", scoreB: "Lose" },
+        { id: 4, teamA: "1학년 6반", teamB: "1학년 2반", scoreA: "Lose", scoreB: "Win" },
       ],
     },
     {
       name: "4강",
       matches: [
-        { id: 5, teamA: "1학년 5반", teamB: "1학년 2반", scoreA: null, scoreB: null },
-        { id: 6, teamA: "1학년 3반", teamB: "1학년 4반", scoreA: null, scoreB: null },
+        { id: 5, teamA: "1학년 5반", teamB: "1학년 3반", scoreA: "Win", scoreB: "Lose" },
+        { id: 6, teamA: "1학년 2반", teamB: "1학년 4반", scoreA: "Win", scoreB: "Lose" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 7, teamA: "TBD", teamB: "TBD", scoreA: null, scoreB: null }],
+      matches: [{ id: 7, teamA: "1학년 5반", teamB: "1학년 2반", scoreA: null, scoreB: null }],
     },
   ]
 
@@ -64,112 +64,154 @@ export default function MatchesPage() {
     {
       name: "8강",
       matches: [
-        { id: 1, teamA: "1학년 1반", teamB: "1학년 5반", scoreA: 1, scoreB: 0 },
-        { id: 2, teamA: "1학년 2반", teamB: "1학년 6반", scoreA: 0, scoreB: 2 },
-        { id: 3, teamA: "1학년 3반", teamB: "1학년 7반", scoreA: 3, scoreB: 1 },
-        { id: 4, teamA: "1학년 4반", teamB: "1학년 8반", scoreA: 2, scoreB: 2 },
+        { id: 1, teamA: "1학년 7반", teamB: "1학년 8반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "1학년 2반", teamB: "1학년 1반", scoreA: "Win", scoreB: "Lose" },
+        { id: 3, teamA: "1학년 6반", teamB: "1학년 4반", scoreA: "Win", scoreB: "Lose" },
+        { id: 4, teamA: "1학년 3반", teamB: "1학년 5반", scoreA: "Win", scoreB: "Lose" },
       ],
     },
     {
       name: "4강",
       matches: [
-        { id: 5, teamA: "1학년 1반", teamB: "1학년 6반", scoreA: null, scoreB: null },
-        { id: 6, teamA: "1학년 3반", teamB: "1학년 4반", scoreA: null, scoreB: null },
+        { id: 5, teamA: "1학년 7반", teamB: "1학년 2반", scoreA: "Lose", scoreB: "Win" },
+        { id: 6, teamA: "1학년 6반", teamB: "1학년 3반", scoreA: "Lose", scoreB: "Win" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 7, teamA: "TBD", teamB: "TBD", scoreA: null, scoreB: null }],
+      matches: [{ id: 7, teamA: "1학년 2반", teamB: "1학년 3반", scoreA: null, scoreB: null }],
     },
   ]
 
   // 2학년 축구 대진표 데이터
   const grade2SoccerData = [
     {
+      name: "8강",
+      matches: [
+        { id: 1, teamA: "2학년 3반", teamB: "2학년 2반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "2학년 1반", teamB: "2학년 6반", scoreA: "Lose", scoreB: "Win" },
+      ],
+    },
+    {
       name: "4강",
       matches: [
-        { id: 1, teamA: "2학년 1반", teamB: "2학년 4반", scoreA: 2, scoreB: 0 },
-        { id: 2, teamA: "2학년 2반", teamB: "2학년 5반", scoreA: 1, scoreB: 3 },
+        { id: 1, teamA: "2학년 2반", teamB: "2학년 4반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "2학년 6반", teamB: "2학년 5반", scoreA: "Lose", scoreB: "Win" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 3, teamA: "2학년 1반", teamB: "2학년 5반", scoreA: null, scoreB: null }],
+      matches: [{ id: 3, teamA: "2학년 4반", teamB: "2학년 5반", scoreA: null, scoreB: null }],
     },
   ]
 
   // 2학년 핸드볼 대진표 데이터
   const grade2HandballData = [
     {
+      name: "8강",
+      matches: [
+        { id: 1, teamA: "2학년 5반", teamB: "2학년 2반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "2학년 1반", teamB: "2학년 3반", scoreA: "Lose", scoreB: "Win" },
+      ],
+    },
+    {
       name: "4강",
       matches: [
-        { id: 1, teamA: "2학년 1반", teamB: "2학년 4반", scoreA: 3, scoreB: 1 },
-        { id: 2, teamA: "2학년 2반", teamB: "2학년 5반", scoreA: 0, scoreB: 2 },
+        { id: 1, teamA: "2학년 2반", teamB: "2학년 6반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "2학년 3반", teamB: "2학년 4반", scoreA: "Lose", scoreB: "Win" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 3, teamA: "2학년 1반", teamB: "2학년 5반", scoreA: null, scoreB: null }],
+      matches: [{ id: 3, teamA: "2학년 2반", teamB: "2학년 4반", scoreA: null, scoreB: null }],
     },
   ]
 
   // 2학년 줄넘기 대진표 데이터
   const grade2JumpRopeData = [
     {
+      name: "8강",
+      matches: [
+        { id: 1, teamA: "2학년 3반", teamB: "2학년 2반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "2학년 1반", teamB: "2학년 4반", scoreA: "Lose", scoreB: "Win" },
+      ],
+    },
+    {
       name: "4강",
       matches: [
-        { id: 1, teamA: "2학년 1반", teamB: "2학년 4반", scoreA: 1, scoreB: 1 },
-        { id: 2, teamA: "2학년 2반", teamB: "2학년 5반", scoreA: 2, scoreB: 0 },
+        { id: 1, teamA: "2학년 3반", teamB: "2학년 6반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "2학년 4반", teamB: "2학년 5반", scoreA: "Win", scoreB: "Lose" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 3, teamA: "2학년 1반", teamB: "2학년 2반", scoreA: null, scoreB: null }],
+      matches: [{ id: 3, teamA: "2학년 3반", teamB: "2학년 4반", scoreA: null, scoreB: null }],
     },
   ]
 
   // 3학년 축구 대진표 데이터
   const grade3SoccerData = [
     {
+      name: "8강",
+      matches: [
+        { id: 1, teamA: "3학년 5반", teamB: "3학년 6반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "3학년 4반", teamB: "3학년 2반", scoreA: "Lose", scoreB: "Win" },
+      ],
+    },
+    {
       name: "4강",
       matches: [
-        { id: 1, teamA: "3학년 1반", teamB: "3학년 4반", scoreA: 0, scoreB: 2 },
-        { id: 2, teamA: "3학년 2반", teamB: "3학년 5반", scoreA: 3, scoreB: 1 },
+        { id: 1, teamA: "3학년 6반", teamB: "3학년 1반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "3학년 2반", teamB: "3학년 3반", scoreA: "Win", scoreB: "Lose" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 3, teamA: "3학년 4반", teamB: "3학년 2반", scoreA: null, scoreB: null }],
+      matches: [{ id: 3, teamA: "3학년 1반", teamB: "3학년 2반", scoreA: null, scoreB: null }],
     },
   ]
 
   // 3학년 핸드볼 대진표 데이터
   const grade3HandballData = [
     {
+      name: "8강",
+      matches: [
+        { id: 1, teamA: "3학년 6반", teamB: "3학년 4반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "3학년 2반", teamB: "3학년 1반", scoreA: "Lose", scoreB: "Win" },
+      ],
+    },
+    {
       name: "4강",
       matches: [
-        { id: 1, teamA: "3학년 1반", teamB: "3학년 4반", scoreA: 2, scoreB: 3 },
-        { id: 2, teamA: "3학년 2반", teamB: "3학년 5반", scoreA: 1, scoreB: 1 },
+        { id: 1, teamA: "3학년 4반", teamB: "3학년 3반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "3학년 1반", teamB: "3학년 5반", scoreA: "Win", scoreB: "Lose" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 3, teamA: "3학년 4반", teamB: "3학년 2반", scoreA: null, scoreB: null }],
+      matches: [{ id: 3, teamA: "3학년 4반", teamB: "3학년 1반", scoreA: null, scoreB: null }],
     },
   ]
 
   // 3학년 줄넘기 대진표 데이터
   const grade3JumpRopeData = [
     {
+      name: "8강",
+      matches: [
+        { id: 1, teamA: "3학년 2반", teamB: "3학년 3반", scoreA: "Lose", scoreB: "Win" },
+        { id: 2, teamA: "3학년 6반", teamB: "3학년 4반", scoreA: "Lose", scoreB: "Win" },
+      ],
+    },
+    {
       name: "4강",
       matches: [
-        { id: 1, teamA: "3학년 1반", teamB: "3학년 4반", scoreA: 4, scoreB: 0 },
-        { id: 2, teamA: "3학년 2반", teamB: "3학년 5반", scoreA: 2, scoreB: 3 },
+        { id: 1, teamA: "3학년 3반", teamB: "3학년 5반", scoreA: "Win", scoreB: "Lose" },
+        { id: 2, teamA: "3학년 4반", teamB: "3학년 1반", scoreA: "Lose", scoreB: "Win" },
       ],
     },
     {
       name: "결승",
-      matches: [{ id: 3, teamA: "3학년 1반", teamB: "3학년 5반", scoreA: null, scoreB: null }],
+      matches: [{ id: 3, teamA: "3학년 3반", teamB: "3학년 1반", scoreA: null, scoreB: null }],
     },
   ]
 
