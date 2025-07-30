@@ -9,20 +9,20 @@ export default function RankingsPage() {
 
   // 1학년 순위 데이터 (1, 2등만)
   const grade1Rankings = [
-    { rank: 1, team: "1학년 1반", points: 100 },
-    { rank: 2, team: "1학년 2반", points: 95 },
+    { rank: 1, team: "1학년 1반" },
+    { rank: 2, team: "1학년 2반" },
   ]
 
   // 2학년 순위 데이터 (1, 2등만)
   const grade2Rankings = [
-    { rank: 1, team: "2학년 3반", points: 100 },
-    { rank: 2, team: "2학년 1반", points: 95 },
+    { rank: 1, team: "2학년 3반" },
+    { rank: 2, team: "2학년 1반" },
   ]
 
   // 3학년 순위 데이터 (1, 2등만)
   const grade3Rankings = [
-    { rank: 1, team: "3학년 2반", points: 100 },
-    { rank: 2, team: "3학년 5반", points: 95 },
+    { rank: 1, team: "3학년 2반" },
+    { rank: 2, team: "3학년 5반" },
   ]
 
   // 현재 선택된 학년에 대한 순위 데이터
@@ -78,12 +78,6 @@ export default function RankingsPage() {
                   >
                     반
                   </th>
-                  <th
-                    scope="col"
-                    className="px-6 py-3 text-center text-xs font-medium text-gray-500 uppercase tracking-wider"
-                  >
-                    종합 점수
-                  </th>
                 </tr>
               </thead>
               <tbody className="bg-white divide-y divide-gray-200">
@@ -98,9 +92,7 @@ export default function RankingsPage() {
                     <td className="px-6 py-4 whitespace-nowrap">
                       <div className="text-lg font-medium text-gray-900">{team.team}</div>
                     </td>
-                    <td className="px-6 py-4 whitespace-nowrap text-lg text-center font-bold text-gray-900">
-                      {team.points}
-                    </td>
+
                   </tr>
                 ))}
               </tbody>
